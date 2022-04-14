@@ -13,16 +13,16 @@ Vencido esse passo iniciei o projeto e durante surgiram novos desafios com mensa
 
 Bibliotecas utilizadas:
 
-uuid : para gerar id automaticamente.
-axios : requisação http
-realt-router-dom : para criar rotas (router, route)
-react-icons : obter modelos de icones
+[uuid] : para gerar id automaticament;
+[axios] : requisação http;
+[realt-router-dom] : para criar rotas (router, route);
+[react-icons] : obter modelos de icones.
 
 
 Utilização de alguns hooks: useState, useEffect, useHistory ...
  	    
 
-Ufa!! foi cansativo mas proveitoso, com os problemas que surgiram aprendendi, assim como com o desenvolvimento do projeto.
+Ufa!! foi cansativo mas proveitoso, com os problemas que surgiram adiquiri mais conhecimento e iniciei no mundo React.JS.
 
 
 Agradecimentos:
