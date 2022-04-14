@@ -10,6 +10,12 @@
 
 }
 
+.buttons-container {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .tarefa-title{
     cursor: pointer;
 }
@@ -19,4 +25,5 @@
     border: none;
     font-size: 16px;
     color: chartreuse;
+    margin: 0 5px;
 }
