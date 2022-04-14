@@ -28,7 +28,7 @@ Ufa!! foi cansativo mas proveitoso, com os problemas que surgiram adiquiri mais 
 Agradecimentos:
 
 A Deus pela saúde e capacidade. <br>
-Ao criador profissional Felipe Rocha pela aula.<br>
+Ao profissional Felipe Rocha pela video aula.<br>
 Ao amigo Eduardo Fabricio pelo apoio e insentivos aos estudos.
 
 
