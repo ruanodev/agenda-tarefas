@@ -13,9 +13,9 @@ Vencido esse passo iniciei o projeto e durante surgiram novos desafios com mensa
 
 Bibliotecas utilizadas:
 
-[uuid] : para gerar id automaticament;
-[axios] : requisação http;
-[realt-router-dom] : para criar rotas (router, route);
+[uuid] : para gerar id automaticamente;<br>
+[axios] : requisação http;<br>
+[realt-router-dom] : para criar rotas (router, route);<br>
 [react-icons] : obter modelos de icones.
 
 
@@ -27,9 +27,9 @@ Ufa!! foi cansativo mas proveitoso, com os problemas que surgiram adiquiri mais 
 
 Agradecimentos:
 
-> A Deus pela saúde e capacidade. <br>
-> Ao criador profissional Felipe Rocha pela aula.<br>
-> Ao amigo Eduardo Fabricio pelo apoio e insentivos aos estudos.
+A Deus pela saúde e capacidade. <br>
+Ao criador profissional Felipe Rocha pela aula.<br>
+Ao amigo Eduardo Fabricio pelo apoio e insentivos aos estudos.
 
 
 By Israel Ruano
