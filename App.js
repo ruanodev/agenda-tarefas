@@ -15,7 +15,7 @@ const App = () => {
 
       useEffect(() => {
         const fetchTarefas = async () => {
-          const { data } = await axios.get("https://jsonplaceholder.cypress.io/todos?_limit=10");
+          const { data } = await axios.get("https://jsonplaceholder.cypress.io/todos?_limit=8");
           setTarefas(data);
         };
 
