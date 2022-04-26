@@ -1,7 +1,9 @@
 import React, { useState, useEffect} from 'react';
 import { v4 as uuidv4 } from 'uuid'; // gera id automaticamente
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, Router, Route, Switch } from 'react-router-dom';
 import axios from 'axios';
+
+//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './src/components/Header';
 import AddTarefa from './src/components/AddTarefa';
@@ -49,10 +51,10 @@ const App = () => {
   }; 
 
     return (
-     <Router>
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
        <div className="container">
-         <Header />
-          
+                <Header />
+          <Switch>
            <Route path="/" exact render={() => (
               <>
                 <AddTarefa handleTarefaAddition={handleTarefaAddition} />
@@ -61,11 +63,11 @@ const App = () => {
              )}
            />
           
-          <Route path="/:tarefaTitle" exact component={TarefaDetails} />
-        
+           <Route path="/:tarefaTitle" exact component={TarefaDetails} />
+          </Switch>
       </div>
-           
-    </Router>
+      
+    </BrowserRouter>
   );
 };
 
