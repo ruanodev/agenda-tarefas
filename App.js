@@ -61,7 +61,7 @@ const App = () => {
               </>
              )}
            />
-          <Route path="/agenda-tarefas/:tarefaTitle" exact component={TarefaDetails} />
+          <Route path="/ruanodev.github.io/:tarefaTitle" exact component={TarefaDetails} />
           
       </div>
       
