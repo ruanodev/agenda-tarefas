@@ -1,9 +1,8 @@
 import React, { useState, useEffect} from 'react';
 import { v4 as uuidv4 } from 'uuid'; // gera id automaticamente
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import axios from 'axios';
 
-//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './src/components/Header';
 import AddTarefa from './src/components/AddTarefa';
@@ -54,16 +53,16 @@ const App = () => {
      <Router>
        <div className="container">
                 <Header />
-           <Route path="/ruanodev.github.io/agenda-tarefas" exact render={() => (
+           <Route path="https://ruanodev.github.io/agenda-tarefas" exact render={() => (
               <>
                 <AddTarefa handleTarefaAddition={handleTarefaAddition} />
                 <Tarefas tarefas={tarefas} handleTarefaClick={handleTarefaClick} handleTarefaDeletion={handleTarefaDeletion} />
               </>
              )}
            />
-           <Switch>
+           
           <Route path="/:tarefaTitle" exact component={TarefaDetails} />
-          </Switch>
+          
       </div>
       
     </Router>
