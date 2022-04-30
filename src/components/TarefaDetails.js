@@ -22,11 +22,13 @@ const TarefaDetails = () => {
             <div className="tarefa-details-container">
                 <h2>{params.tarefaTitle}</h2>
                 <p>
-                 Texto adiconal a tarefa
-                 Texto adiconal a tarefa
-                 Texto adiconal a tarefa
-                 Texto adiconal a tarefa
-                </p>
+                 Conteudo da tarefa
+                 Conteudo da tarefa
+                 Conteudo da tarefa
+                 Conteudo da tarefa
+                 Conteudo da tarefa
+                 Conteudo da tarefa
+               </p>
             </div>
         </>
     );
