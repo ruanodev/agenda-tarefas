@@ -54,7 +54,7 @@ const App = () => {
      <Router>
        <div className="container">
                 <Header />
-           <Route path="/agenda-tarefas" exact render={() => (
+           <Route path="./agenda-tarefas" exact render={() => (
               <>
                 <AddTarefa handleTarefaAddition={handleTarefaAddition} />
                 <Tarefas tarefas={tarefas} handleTarefaClick={handleTarefaClick} handleTarefaDeletion={handleTarefaDeletion} />
