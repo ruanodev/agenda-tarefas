@@ -5,7 +5,7 @@ Projeto desenvolvido utilizando video aula.
 Link: https://www.youtube.com/watch?v=ErjWNvP6mko
 
 
-Desafios que enfrentei:
+Desafios superados:
 
 Foram vários, o primeiro foi não ter como atualizar a versão do Nodejs em minha máquina devido a estar utilizando Windows7.
 Tive que ir em busca de como criar um projeto React sem utilizar o comando "create-react-app", efetuar várias configurações manualmente: webpack, babel, package.json, criar pastas e arquivos.
