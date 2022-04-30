@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import { v4 as uuidv4 } from 'uuid'; // gera id automaticamente
-import { BrowserRouter, Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import axios from 'axios';
 
 //import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -51,7 +51,7 @@ const App = () => {
   }; 
 
     return (
-     <BrowserRouter basename={process.env.PUBLIC_URL}>
+     <Router basename="app-agenda">
        <div className="container">
                 <Header />
           <Switch>
@@ -67,7 +67,7 @@ const App = () => {
           </Switch>
       </div>
       
-    </BrowserRouter>
+    </Router>
   );
 };
 

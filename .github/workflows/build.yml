@@ -9,15 +9,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '15.x'
+      - name: Checkout do repositorio
+        uses: actions/checkout@v1
       - name: Build web-app
         run: 
           npm install
           npm run build
-      - name: Deploy to gh-pages
+      - name: Deploy para gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
