@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import { v4 as uuidv4 } from 'uuid'; // gera id automaticamente
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, HashRouter } from 'react-router-dom';
 import axios from 'axios';
 
 
@@ -50,10 +50,10 @@ const App = () => {
   }; 
 
     return (
-     <Router>
+     <HashRouter>
        <div className="container">
                 <Header />
-           <Route path="https://ruanodev.github.io/agenda-tarefas" exact render={() => (
+           <Route path="/" exact render={() => (
               <>
                 <AddTarefa handleTarefaAddition={handleTarefaAddition} />
                 <Tarefas tarefas={tarefas} handleTarefaClick={handleTarefaClick} handleTarefaDeletion={handleTarefaDeletion} />
@@ -65,7 +65,7 @@ const App = () => {
           
       </div>
       
-    </Router>
+    </HashRouter>
   );
 };
 
