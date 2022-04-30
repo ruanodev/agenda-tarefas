@@ -1,7 +1,7 @@
 {
   "name": "project-react",
   "version": "1.0.0",
-  "homepage": "https://ruanodev.github.io/agenda-tarefas/",
+  "homepage": "/https://ruanodev.github.io/agenda-tarefas/",
   "description": "",
   "main": "index.js",
   "scripts": {
