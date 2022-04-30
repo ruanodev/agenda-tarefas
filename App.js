@@ -54,7 +54,7 @@ const App = () => {
      <Router basename="app-agenda">
        <div className="container">
                 <Header />
-           <Route path="https://ruanodev.github.io/agenda-tarefas" exact render={() => (
+           <Route path="/" exact render={() => (
               <>
                 <AddTarefa handleTarefaAddition={handleTarefaAddition} />
                 <Tarefas tarefas={tarefas} handleTarefaClick={handleTarefaClick} handleTarefaDeletion={handleTarefaDeletion} />
