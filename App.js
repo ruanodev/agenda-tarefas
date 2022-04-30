@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import { v4 as uuidv4 } from 'uuid'; // gera id automaticamente
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import axios from 'axios';
 
 //import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -61,8 +61,9 @@ const App = () => {
               </>
              )}
            />
-          <Route path="./:tarefaTitle" exact component={TarefaDetails} />
-          
+           <Switch>
+          <Route path="/:tarefaTitle" exact component={TarefaDetails} />
+          </Switch>
       </div>
       
     </Router>
